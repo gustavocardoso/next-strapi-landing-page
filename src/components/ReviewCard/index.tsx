@@ -6,7 +6,7 @@ import { getImageUrl } from 'utils/getImageUrl'
 import * as S from './styles'
 
 type ReviewId = {
-  id: string
+  id: number
 }
 
 type ReviewCard = Review & ReviewId
